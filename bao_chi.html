@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Báo Dân Trí - Mẫu Giao Diện</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #222;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo h1 {
+      color: #00854A;
+      font-size: 32px;
+      margin: 0;
+      font-weight: 800;
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .info span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Thanh menu */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid #ddd;
+      padding: 8px;
+      background-color: #fff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+    }
+
+    nav li {
+      display: inline-block;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #00854A;
+    }
+
+    /* Khu nội dung chính */
+    main {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 40px;
+    }
+
+    .left-news {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .left-news img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .left-news h3 {
+      font-size: 16px;
+      margin-top: 8px;
+      line-height: 1.4;
+    }
+
+    .main-news {
+      width: 70%;
+    }
+
+    .main-news img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .main-news h2 {
+      font-size: 20px;
+      margin: 10px 0 5px 0;
+      font-weight: 700;
+    }
+
+    .main-news p {
+      color: #444;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    /* Biểu tượng nhỏ */
+    .icon {
+      width: 18px;
+      height: 18px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>DÂN TRÍ</h1>
+    </div>
+    <div class="info">
+      <span>TP. Hồ Chí Minh • Thứ 2, 10/11/2025</span>
+      <span>☁️ 31°C</span>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">🏠 Tin Mới Nhất</a></li>
+      <li><a href="#">Video</a></li>
+      <li><a href="#">Kinh Doanh</a></li>
+      <li><a href="#">Thời Sự</a></li>
+      <li><a href="#">Sức Khỏe</a></li>
+      <li><a href="#">Bất Động Sản</a></li>
+      <li><a href="#">Đời Sống</a></li>
+      <li><a href="#">Thể Thao</a></li>
+      <li><a href="#">Giải Trí</a></li>
+      <li><a href="#">Nội Vụ</a></li>
+      <li><a href="#">Xã Hội</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="left-news">
+      <article>
+        <img src="https://dantricdn.com/thumb_w/640/2025/11/10/nguyen-van-quang-1731214655860.jpeg" alt="Ông Nguyễn Văn Quảng">
+        <h3>Ông Nguyễn Văn Quảng được bầu làm Chánh án TAND Tối cao</h3>
+      </article>
+      <article>
+        <img src="https://dantricdn.com/thumb_w/640/2025/11/10/cau-cat-lai-long-thanh-1731214655860.jpeg" alt="Cầu Cát Lái">
+        <h3>Cầu Cát Lái nối TPHCM với sân bay Long Thành được xây dựng như thế nào?</h3>
+      </article>
+    </section>
+
+    <section class="main-news">
+      <img src="https://dantricdn.com/thumb_w/640/2025/11/10/bao-phuong-hoang-1731214655860.png" alt="Bão Phượng Hoàng">
+      <h2>Bão Phượng Hoàng gây sóng cao 10m ở Biển Đông</h2>
+      <p>(Dân trí) - Do ảnh hưởng của bão Phượng Hoàng, vùng biển phía Đông khu vực Bắc Biển Đông có gió mạnh cấp 8-10; sóng biển cao 5-8m, vùng gần tâm bão 8-10m. Biển động dữ dội.</p>
+    </section>
+  </main>
+</body>
+</html>
